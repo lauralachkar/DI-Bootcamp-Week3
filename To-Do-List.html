@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do list</title>
+    <link rel="stylesheet" type="text/css" href="To-do-List.css">
+</head>
+<body>
+
+<header>
+    <h1>TO-DO LIST</h1>
+    <form id ="new-task-form">
+        <input type="text" id="new-task-input" placeholder="new task">
+        <input type="submit" value="add task" id="new-task-submit">
+    </form>
+</header>
+
+<main>
+    <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+            <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="Vanilla JavaScript" readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="Vue.js" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                    <div class="task">
+                        <div class="content">
+                            <input type="text" class="text" value="React.js" readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div>
+            <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value=Node.js readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="To-do-List.js"></script>
+</body>
+</html>
